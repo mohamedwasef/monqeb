@@ -1,30 +1,182 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" dir="rtl">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Monqeb || Ask PDF</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            background: none;
+        }
+    </style>
 </head>
-  <body>
 
-    <div class="parent d-flex justify-content-center align-items-center">
-        <section class="login-box text-center child">
-                <img class="mb-2" src="images/logo.svg" alt="logo">
-                <h2 class="fs-5 fw-bold title-color mb-4">تسجيل الدخول لحسابك</h2>
-                <div class="form-group mb-3">
-                    <label for="email">البريد الإلكتروني</label>
-                    <input class="form-control" placeholder="name@domain.com" type="text">
-                </div>
-                <div class="form-group">
-                    <label for="password]">كلمة المرور</label>
-                    <input class="form-control" type="password">
-                </div>
-                <button class="monqeb-btn mt-4">الدخول</button>
-        </section>
-    </div>
+<body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+    <section class="chat-box text-center child">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-3">
+                    <div class="sidebar">
+                        <img src="images/logo.svg" alt="search-icon">
+                        <div class="line mb-4 mt-4"></div>
+                        <h2 class="fs-5 fw-bold text-end mb-4"><img src="images/search-title-icon.svg"
+                                alt="search-icon"> مصادر البحث</h2>
+                        <ul class="text-end p-0">
+                            <li>
+                                <div class="flex-container">
+                                    <p><img src="images/book-icon.svg" title="book-icon"> كتاب القانون الجنائي </p>
+                                    <span>PDF</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-container">
+                                    <p><img src="images/book-icon.svg" title="book-icon"> كتاب القانون الدستوري </p>
+                                    <span>PDF</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-container">
+                                    <p><img src="images/book-icon.svg" title="book-icon"> كتاب القانون العام </p>
+                                    <span>PDF</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-container">
+                                    <p><img src="images/book-icon.svg" title="book-icon"> كتاب القانون المخصص </p>
+                                    <span>PDF</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-container">
+                                    <p><img src="images/book-icon.svg" title="book-icon"> كتاب القانون الإنساني </p>
+                                    <span>PDF</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="mnqb-account-status">
+                            <span><img src="images/quick-icon.svg" alt="quick-icon"></span>
+                            <h5>اشتراكك مدفوع</h5>
+                            <p>أحــصل عـلى خصـــــم 10% على إشتراك الشهر المقبل عند دعوة صديق للإشتراك في
+                                منقب </p>
+                            <a class=" d-inline-block" href="#">دعوة صديق</a>
+                        </div>
+
+                        <div class="flex-container mnqb-logout mt-4 w-100" href="#">
+                            <p class="m-0 fw-bold">
+                                <img src="images/avatar.png" alt="avatar">
+                                محمد واصف
+                            </p>
+                            <span><img src="images/logout-icon.svg" alt="logout"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9">
+                    <header>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h1 class="text-end fs-2 fw-bold">نقب عن البيانات</h1>
+                                </div>
+                                <div class="col-6 text-start">
+                                    <div class="mnqb-user-area">
+                                        <ul class="list-inline p-0 m-0">
+                                            <li class="list-inline-item"><a href="#"><img src="images/info-icon.svg"
+                                                        alt="info"></a></li>
+                                            <li class="list-inline-item"><a href="#"><img src="images/moon-icon.svg"
+                                                        alt="mode"></a></li>
+                                            <li class="list-inline-item">
+                                                <img width="25" src="images/avatar.png" alt="avatar-icon">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mnqb-search-title mt-4 mb-4">
+                                    <p class="m-0 fw-bold">
+                                        <img class="ps-1" src="images/main-search-title-icon.svg">
+                                        نتائج البحث
+                                    </p>
+                                </div>
+                                <div class="scoll-area">
+                                    <div class="mnqb-question flex-content">
+                                        <img src="images/user-question-icon.svg" alt="question-icon">
+                                        <p>ما هو القانون الدولي الإنساني؟</p>
+                                    </div>
+
+                                    <div class="mnqb-answer flex-content">
+                                        <img src="images/user-answer-icon.svg" alt="question-icon">
+                                        <p>
+                                            القانون الدولي الإنساني هو مجموعة من القواعد التي ترمي إلى الحد من آثار
+                                            النزاعات المسلحة لدوافع إنسانية. ويحمي هذا القانون الأشخاص الذين لا يشتركون
+                                            مباشرة أو بشكل فعال في الأعمال العدائية أو الذين كفوا عن المشاركة فيها
+                                            مباشرة أو بشكل فعال، كما أنه يفرض قيودًا على وسائل الحرب وأساليبها. ويُعرَف
+                                            القانون الدولي الإنساني أيضًا "بقانون الحرب" أو "قانون النزاعات المسلحة".
+                                            والقانون الدولي الإنساني فرع من القانون الدولي العام، الذي يتألف بصفة رئيسية
+                                            من معاهدات والقانون الدولي العرفي فضلًا عن المبادئ العامة للقانون (انظر
+                                            المادة 38 من النظام الأساسي لمحكمة العدل الدولية).
+                                            وينبغي التمييز بين القانون الدولي الإنساني، الذي يحكم سلوك الأطراف المنخرطة
+                                            في النزاعات المسلحة (القانون في الحرب jus in bello)، والقانون الدولي العام
+                                            الذي يكرسه ميثاق الأمم المتحدة والذي ينظم مدى قانونية لجوء دولة إلى استخدام
+                                            القوة المسلحة ضد دولة أخرى (قانون شن الحرب jus ad bellum). ويحظر الميثاق
+                                            اللجوء إلى القوة ولكنه يتضمن استثناءين هما: حالات الدفاع عن النفس ضد هجوم
+                                            مسلح، وعندما يخوّل مجلس الأمن التابع للأمم المتحدة استخدام القوة المسلحة.
+                                            ولا يبحث القانون الدولي الإنساني في وجود أسباب مشروعة وراء انطلاق شرارة
+                                            النزاع من عدمه، وإنما يسعى بالأحرى إلى تنظيم سلوك أطراف النزاع فور اندلاعه.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="mnqb-generate mt-4 mb-4">
+                                    <a href="#" class="generate-btn">
+                                        <img src="images/generate.svg" alt="generate-icon">
+                                        إعادة توليد نتائج البحث
+                                    </a>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="question-area flex-container mb-4">
+                                        <input type="text" placeholder="اكتب سؤالك هنـــا">
+                                        <button class="search-btn">البحث</button>
+                                    </div>
+                                </div>
+
+                                <p class="monqeb-note">من خلال كتابة سؤالك بمربع المدخل أعلاه ستصل للنتائج من داخل الكتب
+                                    المرفوعة على
+                                    حسابك
+                                    <br>
+                                    نتمنى لك تحقيق أفضل إستفادة ممكنة مع منقب
+                                </p>
+
+                                <footer>
+                                    <p class="monqeb-rights">جميع الحقوق محفوظة لمنقب 2024</p>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
